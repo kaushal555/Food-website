@@ -1,0 +1,414 @@
+.about-head{
+    background-image: url(/about_us/images/about-header.jpg);
+    background-size: cover;
+    position: relative;
+  
+}
+.about-head h1{
+    text-align: center;
+    padding: 80px 0px;
+    z-index: 1;
+    color: #fff;
+    position: relative;
+    font-size: 55px;
+}
+.about-head::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(43, 44, 47, 0.4);
+}
+
+.about-first .main-image .man-image .man{
+width: 90%;
+
+}
+.about-first .man-image{
+    position: relative;
+
+}
+.about-first .main-image{
+    position: relative;
+
+}
+.about-first {
+    padding: 50px 0px;
+}
+
+
+.about-first .main-image .round .round-content h2{
+   font-size: 62px;
+   color: #fff;
+   margin-bottom: 0px;
+}
+.about-first  .main-image .round .round-content p{
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
+.about-first .main-image .man-image .round-img{
+    position:absolute;
+    top: 35%;
+    left: 31%;
+    animation: circle 10s linear infinite;
+}
+.about-first .main-image .round .round-content{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: #fff;
+    text-align: center;
+}
+
+@keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.about-first .ab-content h1{
+font-size: 56px;
+line-height: 60px;
+padding-bottom: 10px;
+}
+.about-first .ab-content p{
+color: #4d5461;
+font-weight: 600;
+}
+.about-first .ab-bottom{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    padding-top:28px;
+}
+.about-first .ab-bottom .icon h3{
+    font-weight: 650 ;
+    padding-top: 10px;
+}
+.about-first .ab-bottom .icon p{
+    font-weight: 600;
+    color: #7b8ea0;
+}
+.about-service {
+    padding: 80px 0px;
+    background-color: #f9fbfa37;
+}
+.about-service .service-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.about-service .service-head .service-head-p{
+    width: 90%;
+    text-align: center;
+    padding: 14px 0px 12px 0px;
+    position: relative;
+    
+}
+.about-service .service-head .service-head-p::after{
+    content: '';
+    position: absolute;
+    left: 43%;
+    bottom: 0;
+    background-color: #FFA41F;
+    width: 130px;
+    height: 2px;
+
+}
+.about-service .service-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  gap: 8px;
+  border-radius: 15px;
+ 
+}
+.about-service .service-icon h4{
+    padding-top: 18px;
+}
+.about-service .service-icon p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #686868;
+    margin: 0;
+    text-align: center;
+}
+
+.queries{
+    padding: 50px 0px;
+    background-image: url(/about_us/images/faq-bg.png);
+    background-size: contain;
+}
+.queries .q-head{
+    padding-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.48px;
+}
+.queries .accordion .accordion-item .accordion-button{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+    letter-spacing: -0.09px;
+    border-radius: 10px;
+    padding: 16px 10px;
+   
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #202121;
+    background-color: #fff; 
+ }
+.queries .accordion .accordion-item .collapse .accordion-body{
+    padding: 14px 14px 17px 14px;
+    font-size: 18px;
+    font-style: normal;
+    color: #4d5461;
+    border-top: 1px solid #dc164137;
+    font-weight: 600;
+  
+}
+.queries .accordion .accordion-item{
+    margin: 18px 0px;
+    border-radius: 10px;
+} 
+.queries img{
+    width: 100%;
+    height: 100%;
+}
+.queries .girl-img{
+    position: relative;
+}
+.queries .girl-img .event{
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    left: 20%;
+}
+.queries .girl-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 6%;
+    width: 88%;
+    background-color: rgba(0, 9, 41, 0.84);
+    border-radius: 10px;
+}
+.queries .girl-img2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 6%;
+    width: 88%;
+    background-color: rgba(240, 21, 67, 0.84);
+    border-radius: 10px;
+}
+
+.team{
+    padding: 50px 0px;
+    
+}
+.team h1{
+    text-align: center;
+}
+ .team .team-para{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+.team .team-head{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.team .team-para::after{
+    content: '';
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    background-color: #FFA41F;
+    width: 130px;
+    height: 2px;
+
+}
+.team .team-img img{
+    width: 100%;
+}
+
+.team .team-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color:white;
+    box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.15);
+    border-radius: 5px;
+   
+}
+.team .team-intro p{
+    margin-bottom: 5px;
+}
+.team .team-intro .iconns i{
+    padding :5px 10px
+
+}
+.timing{
+    padding: 50px 0px;
+}
+.timing .banner img{
+    width: 100%;
+    height:360px;
+    border-radius: 10px;
+}
+
+.timing .banner{
+   object-fit: cover;
+    object-position: bottom;
+    line-height: 50px;
+     border-radius: 10px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    
+}
+.timing .banner::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(4, 25, 29, 0.8);
+
+}
+.timing .banner button{
+    padding: 10px 20px;
+    
+}
+.timing .banner a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.timing .banner h1{
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 10px;
+   
+}
+.timing .banner p{
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #e5ebef;
+}
+.timing .banner .banner-cont{
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
+.timing .banner .banner-cont .divider{
+    position: relative;
+    padding-left: 50px;
+}
+.timing .banner .banner-cont .divider::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left:0;
+    height: 2px;
+    width: 40px;
+    background-color: #f9b129;
+    border-radius: 5px;
+}
+
+.timing .banner .banner-cont .but{
+    padding: 15px 0px;
+}
+
+.timing .timee .time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    
+}
+.timing .timee{
+    padding: 15px 0px;
+    box-shadow: 0 5px 10px 0 rgba(49, 91, 99, 0.15);
+    border-radius: 5px;
+   
+}
+#t1{
+    font-weight: 700;
+    font-size: 20px;
+}
+#hh{
+    font-weight: 600;
+    font-size: 18px;
+    color: #383838be;
+}
+
+
+
+
+   
+  
+
+
+.timeline{
+    padding: 50px 0px;
+    text-align: center;
+}
+.timeline h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.timeline span{
+    padding:5px 10px;
+    background-color:#f9b129 ;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.timeline .time-image{
+    padding: 50px 50px;
+    border-right: 1px solid #68686888;
+}
+.timeline .time-image img{
+    border-radius: 15px;
+}
+.timeline .time-content{
+    padding: 100px 70px;
+}
+.timeline .time-content p{
+    color: #9b9b9b;
+    font-size: 15px;
+}

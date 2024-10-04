@@ -1,0 +1,99 @@
+
+.contact-head{
+    background-image: url(/about_us/images/about-header.jpg);
+    background-size: cover;
+    position: relative;
+  
+}
+.contact-head h1{
+    text-align: center;
+    padding: 80px 0px;
+    z-index: 1;
+    color: #fff;
+    z-index: 9;
+    position: relative;
+    font-size: 55px;
+}
+.contact-head::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(43, 44, 47, 0.4);
+}
+.gallery-photos{
+    padding: 50px 0px;
+}
+.gallery-photos .gallery-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.gallery-photos .gallery-head p{
+    width: 80%;
+    text-align: center;
+    
+}
+.gallery-photos .gallery-head ::after{
+    content: '';
+    position: absolute;
+    top: 100%; 
+    left: 44%;
+    bottom: 0;
+    right: 0;
+    background-color: #f9b129;
+    width: 130px ;
+    height: 3px;
+}
+.gallery-photos .hover-box .gp{
+    width: 100%;
+}
+
+.gallery-photos .hover-box{
+    position: relative;
+}
+.gallery-photos .hover-box .plus-box{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.48);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s linear;
+   
+}
+.gallery-photos .hover-box .plus-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+}
+.gallery-photos .hover-box .plus-box:hover{
+    opacity: 1;
+}
+.btn-danger{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.gallery-photos .right-cont{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+}
+.gallery-photos .right-cont span{
+    padding: 4px 10px 6px 10px;
+    border: 1px solid #7a79799e;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0px 4px;
+}

@@ -1,0 +1,335 @@
+.contact-head{
+    background-image: url(/about_us/images/about-header.jpg);
+    background-size: cover;
+    position: relative;
+  
+}
+.contact-head h1{
+    text-align: center;
+    padding: 80px 0px;
+    z-index: 1;
+    color: #fff;
+    z-index: 9;
+    position: relative;
+    font-size: 55px;
+}
+.contact-head::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(43, 44, 47, 0.4);
+}
+.menu-filter{
+    padding: 50px 0px 20px 0px;
+    background-color: #fdfdfd;
+}
+.menu-filter .dropdowns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-filter .dropdowns .dropdown button{
+  background-color: #fff;
+  border: 1px solid #35353555;
+  color: #353535;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+.menu-filter .dropdowns .dropdown button i{
+    padding-right: 8px;
+}
+.menu-filter .dropdowns .input-group input{
+  width: 250px;
+  padding: 10px;
+  background-color: #f5f5f594;
+}
+.menu-filter .dropdowns .input-group input::placeholder{
+    font-weight: 600;
+}
+.menu-filter .dropdowns .input-group{
+   width: auto;
+}
+.menu-filter .dropdowns .icon{
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+    background-color: #cccccc94;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+.menu-filter .dropdowns .icons{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  text-align: center;
+    background-color: #dc1641;
+     font-size: 24px;
+     border-radius: 10px;
+     color: #fff;
+ }
+
+.menu-filter .dropdowns .input-group span{
+    background-color: #dc1641;
+    color: #fff;
+    border-radius: 5px;
+}
+.input-group>.form-control{
+    flex: none;
+}
+.menu-filter{
+    padding: 50px 0px;
+    background-color: #fdfdfd;
+}
+
+.menu-filter img{
+    width: 100%;
+
+}
+
+.btn-danger{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.right-cont{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+}
+ .right-cont span{
+    padding: 4px 10px 6px 10px;
+    border: 1px solid #7a79799e;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0px 4px;
+}
+
+.nav-pills .nav-link {
+    background: #cccccc94;
+    border: 0;
+    border-radius: 5px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #dc1641;
+}
+.nav-link {
+   font-size: 22px;
+    color: #454749;
+}
+
+
+.menu-filter img{
+    width: 100%;
+
+}
+.menu-filter .main-box:hover .menu-img img{
+    transform: scale(1.3,1.3);
+}
+.menu-filter .main-box:hover .menu-box .price button{
+    background-color:transparent;
+      color: #353535;
+}
+
+
+
+.menu-filter .main-box .menu-img{
+    position: relative;
+    overflow: hidden;
+    
+}
+.menu-filter .main-box .menu-img img{
+    transition: all 0.9s linear;
+}
+
+.menu-filter .main-box .menu-img .star{
+    background: rgba(0, 9, 41, 0.8);
+    z-index: 11;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu-filter .main-box .menu-img .star span{
+    font-weight: 700;
+    color: #fff;
+}
+.menu-filter .main-box{
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.menu-filter .menu-box{
+    padding: 10px 15px;  
+}
+.menu-filter .menu-box h3{
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.24px;
+    color: #000929d0;
+}
+.menu-filter .menu-box p{
+    font-weight: 600;
+    margin-bottom: 8px;  
+}
+.menu-filter .menu-box p i{
+   padding-right: 20px;
+   font-size: 18px;
+  
+}
+.menu-filter .price{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+
+}
+.menu-filter .main-box .menu-box .price span{
+    font-weight: 700;
+    color: rgb(33, 33, 33);
+    font-size: 26px
+
+}
+.menu-filter .main-box .menu-box .price button i{
+padding-right: 10px;
+}
+.menu-filter .main-box .menu-box .price button{
+    font-weight: 600;
+    background-color:#dc1641;
+    border: 1px solid #dc1641;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 7px;
+    transition: all 0.7s linear;
+}
+
+
+.menu-filter .tab-content .food-menu{
+    border-radius: 30px;
+    position: relative;
+}
+
+.menu-filter .tab-content .food-menu .food-price{
+    display: flex;
+    justify-content: space-between;
+    padding:10px ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    background-color: #fff6f6;
+}
+.menu-filter .tab-content{
+    padding: 50px 0px;
+}
+.menu-filter .tab-content .food-menu .food-img{
+    overflow: hidden;
+}
+
+.menu-filter .tab-content .food-menu .food-img img{
+    width: 100%;
+    transition: all 0.9S linear;
+}
+.menu-filter .tab-content .food-menu:hover img{
+    transform: scale(1.3,1.3);
+}
+.menu-filter .tab-content .food-menu:hover button{
+    background-color: transparent;
+color: #0e0d0d;
+}   
+
+
+.menu-filter .tab-content .food-menu .food-img span{
+   padding: 8px;
+    background-color: #000929cc;
+    color: #fff;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    border-radius: 10px;
+}
+.menu-filter .tab-content .food-menu .food-img .heart{
+    position: absolute;
+    background-color: #fff;
+    top: 3%;
+    left: 5%;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.menu-filter .tab-content .food-menu .food-img span h5{
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.menu-filter .tab-content .food-menu .food-img .popular{
+    width:29%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 38%;
+}
+.menu-filter .tab-content .food-menu .food-price .pr{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f01543;
+    margin-bottom: 0px;
+}
+.menu-filter .tab-content .food-menu .food-price .pl{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.menu-filter .tab-content .food-menu .food-bottom{
+    text-align: left;
+    line-height: 28px;
+    padding: 15px 25px;
+    background-color: #fff6f6;
+    
+}
+.menu-filter .tab-content .food-menu .food-bottom a{
+   color: #0e0d0d;
+   font-size: 20px;
+   font-weight: 640;
+}
+.menu-filter .tab-content .food-menu .food-bottom p{
+margin-bottom: 0px;
+ }
+ .menu-filter .tab-content .food-menu .food-bottom button{
+    text-align: center;
+    padding: 12px 0px;
+    margin: 25px 0px;
+    transition: all 0.7s linear;
+    width: 100%;
+   
+ }
+ 
+ .menu-filter .tab-content .ch {
+   
+    font-size: 50px !important;
+    padding: 100px 0px;
+    font-weight: 600;
+    color: #dc1641;
+    
+ }
+ .menu-filter .tab-content .ch h1{
+    transition: all  0.5s ease-in;
+    transition-duration: 2s;
+ }
+ .menu-filter .tab-content .ch:hover h1{
+    font-size: 60px !important;
+    transform: rotate(360deg);
+  } 
+
+  

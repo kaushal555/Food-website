@@ -1,0 +1,176 @@
+/* Small Desktop & Small Laptop | Check 993px - 1200px */
+@media (max-width: 1200px) {
+
+    .header .navbar-light .navbar-nav .nav-link {
+        padding:0px 16px;
+    }
+   
+    .header .d-flex .form-control {
+        padding: 13px;
+        border-radius: 12px;
+        width: 214px;
+        background-color: #f5f6f623;
+    }
+    .header .icons {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    
+    .about-first .main-image .man-image .man {
+        width: 100%;
+        margin-top: 70px;
+    }
+    .about-first .main-image .man-image .round-img {
+        top: 42%;
+        }
+        .about-first .main-image .round .round-content{ 
+            top: 46%;
+            left: 39.5%;
+        }
+    .timeline .time-image img {
+        width: 100%;
+    }
+    .timing .banner .banner-cont{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .about-first .ab-content h1 {
+        font-size: 52px;
+      
+        padding-bottom: 19px;
+    }
+    .about-service {
+        padding: 45px 0px;
+        
+    }
+    .queries .q-head {
+        padding-bottom: 20px;
+        font-size: 48px; 
+        line-height: 109%;
+        
+    }
+
+
+}
+
+/* Small Laptop & Tablet | Check 768px - 992px*/
+@media (max-width: 992px) {
+
+    .about-first .main-image .man-image .round-img {
+        top: 40%;
+        width: 29%;
+        left: 34%;
+    }
+    .about-first .main-image .round .round-content{ 
+        top: 44%;
+        left: 42.5%;
+    }
+    .about-first .main-image .round .round-content h2{
+        font-size: 80px;
+    }
+    .about-first .main-image .round .round-content p{
+        font-size: 30px;
+    }
+    .timeline .time-image {
+       
+        border-right:none
+    }
+    .timeline .time-content {
+        padding: 42px 70px;
+    }
+    .team .team-para{
+        width: 80%;
+    }
+}
+
+/* Tablet & Mobile | Check Mobile - 767px*/
+@media (max-width: 767px) {
+    .about-head h1 {
+        text-align: center;
+        padding: 45px 0px;
+        font-size: 39px;
+    }
+    .about-first .main-image .man-image .man {
+        margin-top: 0px;
+    }
+    .about-first .main-image .man-image .round-img {
+        top: 37%;
+        width: 29%;
+        left: 36%;
+    }
+    .about-first .main-image .round .round-content{ 
+        top: 42%;
+        left: 44.5%;
+    }
+    .about-first .main-image .round .round-content h2{
+        font-size: 40px;
+    }
+    .about-first .main-image .round .round-content p{
+        font-size: 20px;
+    }
+    .timeline .time-image {
+        padding: 23px 22px;
+    }
+    .about-first .ab-content h1 {
+        font-size: 35px;
+        line-height: 38px;
+        padding: 10px 0px;
+    }
+    .about-service .service-head .service-head-p::after {
+       
+        left: 32%;
+    }
+
+
+    .timeline .time-content {
+        padding: 16px 37px;
+    }
+    .timeline .time-image {
+        padding: 20px 22px 10px 22px;
+    }
+    .footer .footerc{
+        display: flex;
+        flex-direction: column;
+       line-height: 25px;
+    }
+    .footer .footerc .c{
+        padding-top: 8px;
+    }
+    .footer .footerc .b{
+        padding-top: 8px;
+    }
+    .footer .line {
+        margin: 20px 0px;
+    }
+    .footer .footerc .a img {
+        margin-top: -7px;
+    }
+    .queries .girl-img::before {
+        left: 3%;
+        width: 94%;
+    }
+.queries .girl-img .event {
+    position: absolute;
+    top: 36%;
+    color: #fff;
+    left: 20%;
+    font-size: 40px;
+}
+.timing .banner h1 {
+    font-size: 47px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.timing .banner .banner-cont{
+   line-height: 35px;
+   top: 18%;
+   left: 5%;
+}
+
+
+
+
+}

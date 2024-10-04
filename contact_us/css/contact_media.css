@@ -1,0 +1,103 @@
+/* Small Desktop & Small Laptop | Check 993px - 1200px */
+@media (max-width: 1200px) {
+
+    .header .navbar-light .navbar-nav .nav-link {
+        padding:0px 16px;
+    }
+   
+    .header .d-flex .form-control {
+        padding: 13px;
+        border-radius: 12px;
+        width: 214px;
+        background-color: #f5f6f623;
+    }
+    .header .icons {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Small Laptop & Tablet | Check 768px - 992px*/
+@media (max-width: 992px) {
+
+    
+
+
+
+
+
+
+}
+
+/* Tablet & Mobile | Check Mobile - 767px*/
+@media (max-width: 767px) {
+
+    .contact-head h1 {
+        text-align: center;
+        padding: 45px 0px;
+        font-size: 39px;
+
+    }
+
+    .contact-box .box {
+        padding: 32px;
+        text-align: center;
+    }
+    .touch {
+        padding: 23px 0px;
+    }
+
+    #te {
+        width: 100%;
+        height: 171px;
+    }
+
+    .map {
+        padding: 31px 0px;
+    }
+
+
+    .footer .footerc {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+    }
+
+    .footer .footerc .c {
+        padding-top: 8px;
+    }
+
+    .footer .footerc .b {
+        padding-top: 8px;
+    }
+
+    .footer .line {
+        margin: 20px 0px;
+    }
+
+    .footer .footerc .a img {
+        margin-top: -7px;
+    }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,92 @@
+/* Small Desktop & Small Laptop | Check 993px - 1200px */
+@media (max-width: 1200px) {
+
+    .header .navbar-light .navbar-nav .nav-link {
+        padding:0px 16px;
+    }
+   
+    .header .d-flex .form-control {
+        padding: 13px;
+        border-radius: 12px;
+        width: 214px;
+        background-color: #f5f6f623;
+    }
+    .header .icons {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    .post .content {
+        margin-top: -456px;
+    }
+
+
+}
+
+/* Small Laptop & Tablet | Check 768px - 992px*/
+@media (max-width: 992px) {
+    .post .content {
+        margin-top: 20px;
+    }
+    .post .content .related p {
+        font-size: 17px;
+    }
+}
+
+/* Tablet & Mobile | Check Mobile - 767px*/
+@media (max-width: 767px) {
+    .post {
+        padding: 30px 0px;
+    }
+    .post .comma{
+        display: flex;
+        flex-direction: column;
+    }
+    .post .comma .icon{
+        font-size: 50px;
+        
+    }
+    .post .comma  .comma-content{
+        font-size: 22px;
+        padding:0px
+    }
+    .post .content button{
+        margin-left: 110px;
+    }
+    #related-head {
+        padding: 18px 0px 5px 20px;
+    }
+    .post .content .related img {
+        width: 100%;
+    }
+    
+    .contact-head h1 {
+        text-align: center;
+        padding: 45px 0px;
+        font-size: 39px;
+    }
+
+    .footer .footerc {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+    }
+
+    .footer .footerc .c {
+        padding-top: 8px;
+    }
+
+    .footer .footerc .b {
+        padding-top: 8px;
+    }
+
+    .footer .line {
+        margin: 20px 0px;
+    }
+
+    .footer .footerc .a img {
+        margin-top: -7px;
+    }
+
+}

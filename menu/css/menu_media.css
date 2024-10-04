@@ -1,0 +1,164 @@
+/* Small Desktop & Small Laptop | Check 993px - 1200px */
+@media (max-width: 1200px) {
+    .header .navbar-light .navbar-nav .nav-link {
+        padding:0px 16px;
+    }
+   
+    .header .d-flex .form-control {
+        padding: 13px;
+        border-radius: 12px;
+        width: 214px;
+        background-color: #f5f6f623;
+    }
+    .header .icons {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    .menu-filter .dropdowns .input-group input {
+        width: 179px;
+       
+    }
+    .big-menu img{
+       height:  100%;
+    
+    }
+    .menu-filter  .main-box .menu-box .price button {
+        
+        padding: 8px 5px;
+        font-size: 14px;
+    }
+    .menu-filter  .main-box .menu-box .price span {
+       
+        font-size: 24px;
+    }
+    .btn-danger {
+        padding: 12px 11px;
+        font-size: 19px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+    .menu-filter .tab-content .food-menu .food-img .popular {
+        width: 29%;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 35%;
+    }
+    #hh{
+        height: 100%;
+    }
+
+
+
+
+}
+
+/* Small Laptop & Tablet | Check 768px - 992px*/
+@media (max-width: 992px) {
+    .menu-filter  .main-box .menu-box .price button {
+        padding: 9px 16px;
+        font-size: 22px;
+    }
+    .menu-filter .price {
+        display: flex;
+        justify-content: space-between;
+        padding: 26px 0px;
+    }
+    .menu-filter .dropdowns .input-group input {
+        width: 490px;
+        padding: 15px;
+    }
+    .menu-filter .dropdowns .input-group span {
+        padding: 5px 17px;
+        font-size: 22px;
+    }
+    .nav-link {
+        font-size: 26px;
+         color: #454749;
+         padding: 14px 20px;
+     }
+     .right-cont {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: right;
+        margin-top: -50px;
+    }
+    
+
+}
+
+/* Tablet & Mobile | Check Mobile - 767px*/
+@media (max-width: 767px) {
+    .contact-head h1 {
+        text-align: center;
+        padding: 45px 0px;
+        font-size: 39px;
+    }
+
+    .menu-filter .dropdowns {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .menu-filter .dropdowns .input-group input {
+        width: 330px;
+        padding: 15px;
+    }
+    .menu-filter .dropdowns .dropdown button {
+       
+        padding: 10px 25px;
+        margin: 10px 5px;
+    }
+    .menu-filter .dropdowns .input-group {
+        padding: 10px 0px;
+    }
+    .menu-filter .dropdowns .icons{
+        margin-left: 10px;
+    }
+    .menu-filter {
+        padding: 25px 0px 20px 0px;
+        
+    }
+    .menu-filter .menu-box h3 {
+        padding-bottom: 10px;
+        font-size: 27px;
+    }
+    .menu-filter  .main-box .menu-box .price span {
+        font-size: 30px;
+    }
+    .menu-filter  .menu-box p {
+        font-weight: 600;
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    .news .main .news-cont {
+        padding: 0px 50px 10px 20px;
+         top: 35%;
+     }
+     .news .news-cont button{
+         margin-top: 10px;
+     }
+     .footer .footerc{
+        display: flex;
+        flex-direction: column;
+       line-height: 25px;
+    }
+    .footer .footerc .c{
+        padding-top: 8px;
+    }
+    .footer .footerc .b{
+        padding-top: 8px;
+    }
+    .footer .line {
+        margin: 20px 0px;
+    }
+    .footer .footerc .a img {
+        margin-top: -7px;
+    }
+
+
+
+
+}

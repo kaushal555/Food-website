@@ -1,0 +1,90 @@
+/* Small Desktop & Small Laptop | Check 993px - 1200px */
+@media (max-width: 1200px) {
+    .header .navbar-light .navbar-nav .nav-link {
+        padding:0px 16px;
+    }
+   
+    .header .d-flex .form-control {
+        padding: 13px;
+        border-radius: 12px;
+        width: 214px;
+        background-color: #f5f6f623;
+    }
+    .header .icons {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    #big {
+        font-size: 19px;
+        padding-bottom: 10px;
+       
+    }
+    .news .main .news-cont h5{
+        margin-bottom: 0px;
+    }
+    .news .main .news-cont {
+        position: absolute;
+        top: 23%;
+    }
+    .btn-danger {
+        padding: 12px 9px;
+    }
+    
+
+
+
+
+}
+
+/* Small Laptop & Tablet | Check 768px - 992px*/
+@media (max-width: 992px) {
+    .news .right-cont {
+        
+        margin-top: -50px;
+    }
+}
+
+/* Tablet & Mobile | Check Mobile - 767px*/
+@media (max-width: 767px) {
+
+    .news .main .news-cont {
+       padding: 0px 50px 10px 20px;
+        top: 35%;
+    }
+    .news .news-cont button{
+        margin-top: 10px;
+    }
+
+
+
+    .contact-head h1 {
+        text-align: center;
+        padding: 45px 0px;
+        font-size: 39px;
+    }
+
+    .footer .footerc {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+    }
+
+    .footer .footerc .c {
+        padding-top: 8px;
+    }
+
+    .footer .footerc .b {
+        padding-top: 8px;
+    }
+
+    .footer .line {
+        margin: 20px 0px;
+    }
+
+    .footer .footerc .a img {
+        margin-top: -7px;
+    }
+
+}

@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/includes/css/bootstrap.min.css">
+    <link rel="stylesheet" href="includes/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/includes/css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="/includes/css/style.css">
+    <link rel="stylesheet" href="/includes/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <section class="header d-lg-block d-md-none d-none">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="/includes/images/footer-logo-svg.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0  navigation li">
+                        <li class="nav-item hovred dropdown">
+                            <a class="nav-link" href="/index.html" id="navbarDropdown" role="button" data-bs-toggle=""
+                                aria-expanded="false">
+                                Home
+                            </a>
+                          
+                        </li>
+                        <li class="nav-item hovred dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blogs
+                            </a>
+                            <ul class="dropdown-menu" id="header-dropdown" aria-labelledby="navbarDropdown">
+                                <li class="botred"><a class="dropdown-item" href="/Blog/blog.html">Blog</a></li>
+                                <li class="botred bodlast"><a class="dropdown-item" href="/blog_detail/blog_detail.html">Blog
+                                        Details</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item hovred dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" id="header-dropdown" aria-labelledby="navbarDropdown">
+                                <li class="botred"><a class="dropdown-item" href="/about_us/about.html">About Us</a>
+                                </li>
+                                <li class="botred"><a class="dropdown-item" href="/contact_us/contact.html">Contact
+                                        Us</a></li>
+                                <li>
+                                <li class="botred"><a class="dropdown-item" href="/gallery/gallery.html">Gallery</a>
+                                </li>
+                                <li class="botred"><a class="dropdown-item" href="/Blog/blog.html">Blog</a></li>
+                                <li class="botred bodlast"><a class="dropdown-item" href="/blog_detail/blog_detail.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item hovred dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Recipes
+                            </a>
+                            <ul class="dropdown-menu head-menu" aria-labelledby="navbarDropdown">
+                                <div class="row gy-4">
+                                    <div class="col-lg-4">
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="/includes/images/header-menu-food-01.png"></a></li>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="/includes/images/header-menu-food-02.png"></a></li>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="/includes/images/header-menu-food-03.png"></a></li>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="/includes/images/header-menu-food-04.png"></a></li>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="/includes/images/header-menu-food-05.png"></a></li>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <li><a class="dropdown-item" href="#"><img
+                                                    src="/includes/images/header-menu-food-06.png"></a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item hovred dropdown">
+                            <a class="nav-link" href="menu/menu.html" id="navbarDropdown" role="button" data-bs-toggle=""
+                                aria-expanded="false">
+                               Menu
+                            </a>
+                          
+                        </li>
+                        <li class="nav-item hovred dropdown">
+                            <a class="nav-link" href="/contact_us/contact.html" id="navbarDropdown" role="button" data-bs-toggle=""
+                                aria-expanded="false">
+                                Contact Us
+                            </a>
+                          
+                        </li>
+                    </ul>
+                    <div class="icons">
+                        <div class="h-icon">
+                            <a href="#" id="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <div class="h-icon">
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- offcanvas start -->
+
+
+    <section class="canvas d-lg-none d-md-block d-block">
+        <div class="container">
+            <div class="row">
+
+                <div class="">
+                    <div class="off-body">
+                        <div class="of-photo">
+                            <img src="/includes/images/footer-logo.svg">
+                        </div>
+                        <div class="off-canvas-left">
+                            <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                                aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <div class="of-photo">
+                        <img src="/includes/images/footer-logo.svg">
+                    </div>
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="search">
+                        <input type="search" placeholder="search..">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <p id="offmenu">Menu</p>
+
+                    <ul class="upmenu">
+                        <li><i class="fa-solid fa-grip"></i><span>Home</span></li>
+                        <li><i class="fa-solid fa-chart-simple"></i><span>Activity</span><span class="left">10</span>
+                        </li>
+                        <li><i class="fa-regular fa-square-check"></i><span>Pages</span></li>
+                        <li><i class="fa-solid fa-user"></i><span>User Dashboard</span></li>
+                        <li><i class="fa-solid fa-bell"></i><span>Notifications</span><span class="left2">25</span></li>
+
+                        <hr>
+
+                        <li><i class="fa-solid fa-gear"></i><span>Settings</span></li>
+                        <li><i class="fa-solid fa-flag"></i><span>Report</span></li>
+                        <li><i class="fa-solid fa-circle-exclamation"></i><span>Support</span></li>
+                    </ul>
+
+                    <div class="head">
+                        <div class="head-left">
+                            <div class="icon">
+                                <img src="/includes/images/off-profile.png">
+                            </div>
+                            <div class="hl-cont">
+                                <P id="hi">HI Yoshiki</P>
+                                <p>let's grab your food</p>
+                            </div>
+                        </div>
+                        <div class="head-right">
+                            <i class="fa-regular fa-bell"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="show" style="background-image: url(/includes/images/banner-bg-two.png);">
+        <div class="container">
+            <div class="content">
+                <div class="big-cont">
+                    <h1>Crafting your Exceptional Dining <span>Reservations</span></h1>
+
+                    <p>Reservation is a step into a world of gastronomic wonder. Reserve your table today and let us
+                        paint your culinary dreams into reality.</p>
+                </div>
+                <div class="menu  d-flex">
+                    <div id="menu2" class="menu1 menuf">
+                        <i class="fa-solid fa-truck"></i><span> Delivery</span>
+                    </div>
+                    <div class="menu1">
+                        <i class="fa-solid fa-location-dot"></i><span> Pick Up</span>
+                    </div>
+                    <div class="menu1">
+                        <i class="fa-solid fa-house-chimney"></i><span> In Restaurant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="category">
+        <div class="container">
+            <h1>Our Categories</h1>
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-bread-slice"></i>
+                            <h5>Breakfast</h5>
+                            <span>17 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-burger"></i>
+                            <h5>Burgers</h5>
+                            <span>23 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-bowl-rice"></i>
+                            <h5>Cuisine</h5>
+                            <span>55 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-carrot"></i>
+                            <h5>Vegan</h5>
+                            <span>87 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-blender"></i>
+                            <h5>Dairy</h5>
+                            <span>34 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-ice-cream"></i>
+                            <h5>Desserts</h5>
+                            <span>18 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-pizza-slice"></i>
+                            <h5>Pizzas</h5>
+                            <span>24 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="items">
+                        <div class="main-item">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            <h5>Pancakes</h5>
+                            <span>56 Recipes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 d-lg-block d-md-block d-none">
+                        <img src="/includes/images/about-1.png">
+                    </div>
+                    <div class="col-lg-6 col-md-6  about-item">
+                        <h1>About Restoral</h1>
+                        <P>Restoral, one of today’s most renowned fast food restaurants, was established in 2013, as a
+                            quiet place where anyone could eat a burger or have a pizza that they loved. Our dedication
+                            to customers and quality food helps us to reach more today.</P>
+                        <div class="about-num d-flex">
+                            <div class="num">
+                                <h1>20</h1>
+                                <p id="num-p">Burgers Sold</p>
+                            </div>
+                            <div class="num">
+                                <h1>100</h1>
+                                <p id="num-p">Pizzas Made </p>
+                            </div>
+                            <div class="num">
+                                <h1>64</h1>
+                                <p id="num-p">Clients Everyday</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">SEE OUR MENU</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="chefs">
+        <div class="container">
+            <h1>Our Chef's</h1>
+            <div class="owl-carousel owl-theme chef">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/includes/images/team-small-1-250x250.jpg">
+                    </div>
+                    <h4>Arni Stark</h4>
+                    <P>Founder</P>
+                    <div class="item-icons">
+                        <div class="ic"><i class="fa-brands fa-instagram "></i></div>
+                        <div class="ic"><i class="fa-brands fa-facebook-f "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-twitter "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-google-plus-g "></i></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/includes/images/team-small-2-250x250.jpg">
+                    </div>
+                    <h4>Biltam Robinson</h4>
+                    <P>Head Chef</P>
+                    <div class="item-icons">
+                        <div class="ic"><i class="fa-brands fa-instagram "></i></div>
+                        <div class="ic"><i class="fa-brands fa-facebook-f "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-twitter "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-google-plus-g "></i></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/includes/images/team-small-3-250x250.jpg">
+                    </div>
+                    <h4>Rabina Aves</h4>
+                    <P>Pastry Chef</P>
+                    <div class="item-icons">
+                        <div class="ic"><i class="fa-brands fa-instagram "></i></div>
+                        <div class="ic"><i class="fa-brands fa-facebook-f "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-twitter "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-google-plus-g "></i></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/includes/images/team-small-4-250x250.jpg">
+                    </div>
+                    <h4>Peter Amberson</h4>
+                    <P>Assisitant Chef</P>
+                    <div class="item-icons">
+                        <div class="ic"><i class="fa-brands fa-instagram "></i></div>
+                        <div class="ic"><i class="fa-brands fa-facebook-f "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-twitter "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-google-plus-g "></i></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/includes/images/team-small-5-250x250.jpg">
+                    </div>
+                    <h4>Samanthaa Clark</h4>
+                    <P>Administrator</P>
+                    <div class="item-icons">
+                        <div class="ic"><i class="fa-brands fa-instagram "></i></div>
+                        <div class="ic"><i class="fa-brands fa-facebook-f "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-twitter "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-google-plus-g "></i></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/includes/images/team-small-6-250x250.jpg">
+                    </div>
+                    <h4>Ryan Ricks</h4>
+                    <P>Sous Chef</P>
+                    <div class="item-icons">
+                        <div class="ic"><i class="fa-brands fa-instagram "></i></div>
+                        <div class="ic"><i class="fa-brands fa-facebook-f "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-twitter "></i></div>
+                        <div class="ic"> <i class="fa-brands fa-google-plus-g "></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dishes">
+        <div class="container">
+            <div class="dish-head">
+                <h1>Our Popular Dishes</h1>
+                <div class="dish-p">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor omnis beatae rem ab a. Ratione
+                        repellendus magni nam laboriosam ipsam at quisquam explicabo voluptatem! Harum?</p>
+                </div>
+                <div class="yellow"></div>
+            </div>
+            <div class="owl-carousel owl-theme dish">
+                <div class="item">
+                    <img src="/includes/images/01.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/03.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/04.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/05.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/02.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/04.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/01.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/02.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/03.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+                <div class="item">
+                    <img src="/includes/images/05.jpg">
+                    <h5>Maggi</h5>
+                    <p>$50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="food" id="menuu">
+        <div class="container">
+            <div class="food-head">
+                <div class="food-h">
+                    <h1>Some Traditional Food Based On Location</h1>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Nav pills -->
+            <ul class="nav nav-pills justify-content-center" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="pill" href="#home">All Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#thai">Thai</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#mexican">Mexican</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#italian">Italian</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#chinese">Chinese</a>
+                </li>
+            </ul>
+
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="home" class="container tab-pane active">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-2.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i> 4 piece
+                                    chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i> Spicy
+                                    Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-3.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i> 4
+                                    piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-4.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i> 4
+                                    piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-5.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i> 4
+                                    piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-6.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i> 4
+                                    piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/featured-1.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i> 4
+                                    piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="thai" class="container tab-pane fade">
+
+                    <div class="row g-4">
+                        <div class="col-lg-4   col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-2.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-5.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-6.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div id="mexican" class="container tab-pane fade">
+
+                    <div class="row g-4">
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-3.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-4.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-5.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-2.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/featured-1.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-6.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- italian start -->
+
+                <div id="italian" class="container tab-pane fade">
+
+                    <div class="row g-4">
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-3.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4   col-md-6 food-menu">
+                            <div class="food-img">
+                                <img class="main-img" src="/includes/images/traditional-4.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4  col-md-6 food-menu">
+                            <div class="food-img">
+                                <img src="/includes/images/traditional-6.png">
+                                <img class="popular" src="/includes/images/populer.png">
+                                <span>
+                                    <h5>20%off</h5>
+                                </span>
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart fa-sm" style="color: #fd4949;"></i>
+                                </div>
+                            </div>
+                            <div class="food-price">
+                                <p class="pr">$30.00</p>
+                                <P class="pl"><i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>4.7(2.5k)
+                                </P>
+                            </div>
+                            <div class="food-bottom">
+                                <a>BBQ Pulled Pork Sandwich</a>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    4 piece chicken</p>
+                                <p><i class="fa-regular fa-circle-check fa-sm" style="color: #f25058;"></i>
+                                    Spicy Sauce</p>
+                                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="chinese" class=" ch container tab-pane fade">
+
+                    <span>
+                        <h1> OUT OF STOCK</h1>
+                    </span>
+
+                </div>
+            </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h1>What’s Our Customer Say</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="testi-content">
+                        <img src="/includes/images/customer-icon.png">
+                        <P>"An absolute foodie's paradise! The flavors at ReservQ are a symphony of delight. Every bite
+                            tells a story of passion and skill. A must-visit for anyone seeking beyond compare."
+                        </P>
+                    </div>
+                    <div class="t-bottom">
+                        <div class="t-img">
+                            <img src="/includes/images/customer-3.png">
+                        </div>
+                        <div class="star">
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <h4>Robert Fox</h4>
+                            <h6>Bike Trainer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-4">
+                    <div class="testi-content">
+                        <img src="/includes/images/customer-icon.png">
+                        <P>"An absolute foodie's paradise! The flavors at ReservQ are a symphony of delight. Every bite
+                            tells a story of passion and skill. A must-visit for anyone seeking beyond compare."
+                        </P>
+                    </div>
+                    <div class="t-bottom">
+                        <div class="t-img">
+                            <img src="/includes/images/customer-2.png">
+                        </div>
+                        <div class="star">
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <h4>David Ethnic</h4>
+                            <h6>Dog Trainer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-4">
+                    <div class="testi-content">
+                        <img src="/includes/images/customer-icon.png">
+                        <P>"An absolute foodie's paradise! The flavors at ReservQ are a symphony of delight. Every bite
+                            tells a story of passion and skill. A must-visit for anyone seeking beyond compare."
+                        </P>
+                    </div>
+                    <div class="t-bottom">
+                        <div class="t-img">
+                            <img src="/includes/images/customer-1.png">
+                        </div>
+                        <div class="star">
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                            <h4>Janson Roy</h4>
+                            <h6>Job Holder</h6>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="partner-head">
+                <h1>Our Partners</h1>
+                <div class="partner-head-p">
+                    We are glad to offer our visitors high-quality burgers and pizzas, but we also believe our whole
+                    business couldn’t be successful without our partners.
+                </div>
+                <div class="yellow"></div>
+            </div>
+            <div class="partner-logo">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="/includes/images/brand-1-128x111.png">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="includes/images/brand-2-129x102.png">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="includes/images/brand-3-143x110.png">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <img src="/includes/images/brand-4-142x102.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="reserve">
+        <div class="container">
+            <div class="reserve-head">
+                <h1>Reservation</h1>
+                <div class="res-p">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim deserunt quas placeat suscipit
+                        quos maxime doloribus, fugiat sunt voluptatum ipsum repudiandae, repellendus amet ut similique.
+                    </p>
+                </div>
+                <div class="res-yellow">
+
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class=" form col-lg-4 col-md-6">
+                    <input type="text" placeholder="NAME">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class=" form col-lg-4 col-md-6">
+                    <input type="email" placeholder="EMAIL">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class=" form col-lg-4 col-md-6">
+                    <input type="tel" placeholder="NUMBER">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class=" form col-lg-4 col-md-6">
+                    <input type="date" placeholder="DATE">
+                    <i class="fa-solid fa-calendar"></i>
+                </div>
+                <div class=" form col-lg-4 col-md-6">
+                    <input type="text" placeholder="TIME">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class=" form col-lg-4 col-md-6">
+                    <input type="number" placeholder="PERSON">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class=" form col-lg-12">
+                    <button class="btn btn-danger">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="top-footer">
+        <div class="container">
+            <div class="subscribe">
+                <div class="subscribe-head">
+                    <h1>Subscribe to My Newsletter</h1>
+                    <div class="s-para">
+                        <p>Get access to my latest recipes by joining the weekly newsletter</p>
+                    </div>
+                    <div class="mail">
+                        <input type="email" placeholder="Enter Your Email Address">
+                        <button class="btn btn-warning">SUBMIT  <i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-images">
+        <div class="container-fluid">
+            <div class="row gx-0">
+                <div class="col-lg-2 col-md-4">
+                    <img src="/includes/images/1 (1).jpg">
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <img src="/includes/images/2.jpg">
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <img src="/includes/images/3.jpg">
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <img src="/includes/images/4.jpg">
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <img src="/includes/images/5.jpg">
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <img src="/includes/images/6.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h4>MY ACCOUNT</h4>
+                    <ul class="ulbottom">
+                        <li>My Account</li>
+                        <li>Order history</li>
+                        <li>Wishlist</li>
+                        <li>Newsletter</li>
+                        <li>My Reservation</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h4>INFORMATION</h4>
+                    <ul class="ulbottom">
+                        <li>About us</li>
+                        <li>Delivery Information</li>
+                        <li>Contact Us</li>
+                        <li>Terms & Conditions </li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h4>Working Time</h4>
+                    <ul class="ulbottom">
+                        <li>Monday - Friday : 9 am to 12 am.</li>
+                        <li>Saturday - Sunday : 24 Hour Open</li>
+                        <li>Breakfast : 7 am to 12 pm</li>
+                        <li>Lunch : 12 pm to 7 pm</li>
+                        <li>Dinner : 7 am to 12 am</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h4>Contact Us</h4>
+                    <ul class="ulbottom">
+                        <li>
+                            <div class="footer-location">
+                                <div class="ab"><i class="fa-solid fa-location-dot" style="color: #FFA41F;"></i> </div>
+                                <div class="abb"> 123 St 3, Restaurant Food &
+                                    Drinks, Near Bala Ji Chownk, Ludhiana, INDIA</div>
+                            </div>
+                        </li>
+                        <li><i class="fa-solid fa-phone" style="color: #FFA41F;"></i> 1800 123 0000, +91 123457890</li>
+                        <li><i class="fa-solid fa-envelope" style="color: #FFA41F;"></i> Info@restaurant.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="footerc">
+                <div class="a">
+                    <img src="/includes/images/footer-logo.svg">
+                </div>
+                <div class="b">
+                    <P> Copyright © <span style="color: #FFA41F;">Restaurant Food & Drinks</span> 2017. All Rights
+                        Reserved.</P>
+                </div>
+                <div class="c">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  --------------------search modal -------------------------------------->
+
+
+    <!-- Button trigger modal -->
+    <section class="search-modal">
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="exampleModalLabel"></h5> -->
+                        <button type="button" class="modbt" data-bs-dismiss="modal" aria-label="Close"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" placeholder="Search...">
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------CART------------------------------------ -->
+
+   
+
+
+
+
+    <div class="navbar-right">
+                    
+        <div class="shopping-cart">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="/includes/images/modal-img-1.png">
+                </div>
+                <div class="col-lg-9 ">
+                    <p class="tea">Red Tea Pot With Black Handles</P>
+                    <span>2x 18.00$</span>
+                </div>
+                <hr>
+                <div class="col-lg-3">
+                    <img src="/includes/images/modal-img-2.png">
+                </div>
+                <div class="col-lg-9 pt-1">
+                    <p class="tea">Oak Wood Cutting Board</P>
+                    <span>1x 24.25$</span>
+                </div>
+                <hr>
+                <div class="col-lg-12 ps-4">
+                    <div class="total">
+                        <div class="total-in">
+                            <P class="tea">Subtotal:</P>
+                        </div>
+                        <div class="total-in">
+                            <P id="mod-price" class="tea">54.25$</P>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-lg-12 ps-4">
+                    <button id="button-green" href="#">CHECKOUT</button>
+                    <button href="#">VIEW CART</button>
+                </div>
+            </div>
+        </div>
+      </div> 
+
+
+
+
+
+
+
+    <script src="/includes/js/bootstrap.bundle.min.js"></script>
+    <script src="/includes/js/jquery-3.7.1.min.js"></script>
+    <script src="/includes/js/owl.carousel.min.js"></script>
+    <script src="/includes/js/custom.js"></script>
+</body>
+
+</html>
